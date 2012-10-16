@@ -1,0 +1,12 @@
+CFDP Read Me
+============
+
+This is the code for the CCSDS File Delivery Protocol (CFDP).
+N.B.: This code is made for arduino 1.0 but should be compatible with previous versions.
+
+In order to use it, copy the CFDP folder in the arduino's libraries folder (e.g. "C:\arduino-1.0\libraries").
+An example on how to use it is also given:
+-the folder MasterCFDP for the master
+-the folder SlaveCFDP for the slave
+
+/!\ The current version only allows you to send and receive data over I2C. /!\
